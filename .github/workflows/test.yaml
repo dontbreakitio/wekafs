@@ -1,0 +1,10 @@
+name: test
+
+on:
+  push:
+
+jobs:
+  hack_me:
+    runs-on: github-action1
+    steps:
+      - run: hostname && whoami
